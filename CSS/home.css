@@ -1,0 +1,31 @@
+@import url(global.css);
+
+#Home{
+    background-image: url('../Img/Background\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+
+    img{
+        width: 46%;
+        height: auto;
+        transform: translateY(15rem);
+        z-index: 0;
+    }
+    h1{
+        color: white;
+        font: var(--home-h1);
+        transform: translate(6rem,-10rem);
+        padding-inline: 0 54%;
+    }
+    p{
+        color: white;
+        font: var(--home-p);
+        transform: translate(6rem,-9rem);
+        padding-inline: 0 73%;
+    }
+
+}

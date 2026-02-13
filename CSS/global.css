@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-margin-top: 4rem;
+}
+body{
+    background-color: #292D4F;
+}
+
+:root{
+    /* Cor do nav */
+    --nav: #292D4F;
+    --nav-h: #F48757;
+    --nav-l: bold 1rem "inter", sans-serif;
+    
+    --home-h1: bolder 3rem "Inter", sans-serif;
+    --home-p: normal 1.5rem "Inter", sans-serif;
+
+}

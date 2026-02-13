@@ -1,0 +1,45 @@
+@import url(global.css);
+
+.Menu{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 99;
+    
+    img{
+        margin-left: 1.5rem;
+    }
+    
+    nav{
+        display: inherit;
+        margin-inline: auto 1.5rem;
+
+        ul{
+            display: inherit;
+            gap: 3.5rem;
+            align-items: center;
+
+            li{
+                list-style-type: none;
+                align-items: inherit;
+                justify-items: center;
+
+                a{
+                    text-decoration: none;
+                    color: var(--nav);
+                    font: var(--nav-l);
+                }
+            }
+            li:hover{
+                transform: translate(5%,-10%);
+                a{
+                    color: var(--nav-h);
+                }
+            }
+        }
+
+    }
+}
