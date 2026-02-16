@@ -1,0 +1,43 @@
+@import url(global.css);
+
+#work{
+    background: url("../Img/bg\ 2.png") no-repeat center/cover;
+    padding: 8rem 0 6rem 4rem;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem;
+        background-color: #424B9C;
+        border-radius: 2rem 0 0 2rem;
+
+        h1{
+            font: var(--work-h1);
+            color: white;
+        }
+        p{
+            font: var(--work-p);
+            color: white;
+        }
+    }
+    img{
+        position: absolute;
+        align-self: flex-end;
+        border: 4px solid white;
+        border-radius: 37px;
+    }
+    img:nth-child(1){
+        width: 20%;
+        transform: translate(43rem, 4rem);
+        z-index: 1;
+    }
+    img:nth-child(2){
+        width: 25%;
+        transform: translate(53rem, -6rem);
+    }
+    img:nth-child(3){
+        width: 24%;
+        transform: translate(31rem, -5rem);
+    }
+}

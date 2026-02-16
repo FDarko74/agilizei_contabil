@@ -1,6 +1,7 @@
 @import url(global.css);
 #Agilizei{
     overflow: hidden;
+    margin-bottom: 4rem;
     img{
         position: absolute;
         height: 50vh;
@@ -8,9 +9,9 @@
         z-index: -1;
     }
     div:has(h1){
-        background: url(../Img/bg\ 1.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
+        background: linear-gradient(to bottom,rgb(49, 58, 158),rgba(49, 58, 158, 0.829),rgba(49, 58, 158, 0.418),
+    transparent
+  );
         padding-block: 10vh;
         text-align: center;
         z-index: 10;

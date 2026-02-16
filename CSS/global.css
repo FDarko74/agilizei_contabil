@@ -23,10 +23,14 @@ body{
     
     --home-h1: bolder clamp(1.5rem, 4vw, 3rem) "Inter", sans-serif;
     --home-p: normal clamp(0.75rem, 2vw, 1.5rem) "Inter", sans-serif;
-    
+
     --about-h1: italic clamp(1.5rem, 4vw, 3rem) "Inter", sans-serif;
     --strong-h1: bolder clamp(1.5rem, 4vw, 3rem) "Inter", sans-serif;
-
+    
     --about-h2: normal clamp(0.5rem, 2vw, 1.5rem) "Inter", sans-serif;
     --about-p: normal clamp(0.25rem, 1vw, 0.75rem) "Inter", sans-serif;
+
+    --work-h1: bolder clamp(1rem, 4vw, 2rem) "Inter", sans-serif;    
+    --work-p: normal clamp(0.5rem, 2vw, 1rem) "Inter", sans-serif;
+
 }
