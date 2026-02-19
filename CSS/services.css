@@ -1,0 +1,71 @@
+@import url(global.css);
+
+#services {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem 14rem 5rem 0;
+
+    div:first-child{
+        background-color: #7F5D46;
+    }
+    div:nth-of-type(2){
+        background-color: #5D66B5;
+    }
+    div:nth-of-type(3){
+        background-color: #A29E99;
+    }
+    div:nth-of-type(4){
+        background-color: #F48757;
+    }
+
+    .services{
+        display: inherit;
+        gap: 7.7rem;
+        justify-content: center;
+        align-items: center;
+        padding: 7rem ;
+
+        img{
+            width: 10%;
+        }
+        h1{
+            color: white;
+            font: var(--services-h1);
+        }
+        div:has(button){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 0 1rem 12rem;
+            img{
+                position: absolute;
+                width: 20%;
+                right: 20px;
+                z-index: 0;
+                opacity: 0.1;
+            }
+
+            button{
+                background-color: transparent;
+                border: 0px solid white;
+                padding: 0.5rem 1rem;
+                cursor: pointer;
+
+                p{
+                    color:white;
+                    font: var(--services-bu);
+                    text-transform: uppercase;
+                }
+            }
+        }
+        div:has(ul){
+            display: none;
+           border-left: 1px solid white;
+           padding: 1rem 0 1rem 12rem; 
+        li{
+            color: white;
+            font: var(--services-li);
+        }
+        }
+    }
+}
